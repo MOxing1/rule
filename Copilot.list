@@ -1,0 +1,8 @@
+# NAME: Copilot
+# PURPOSE: GitHub Copilot transport and telemetry only
+# NOTE: github.com itself remains in the GitHub rule group; do not capture all GitHub traffic here.
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,origin-tracker.githubusercontent.com
+DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
+DOMAIN-SUFFIX,copilot-reports.github.com
